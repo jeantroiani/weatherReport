@@ -1,0 +1,20 @@
+<div>   
+    <a href="#/forecast/2" class="pure-button" ng-class="{'pure-button-active' : days == 2}">2</a>
+    <a href="#/forecast/3" class="pure-button" ng-class="{'pure-button-active' : days == 3}" >3</a>
+    <a href="#/forecast/5" class="pure-button" ng-class="{'pure-button-active' : days == 5}">5</a>
+<!--
+    <div class="pure-u-1 city-name">
+        <h2>{{cityName}}</h2>
+    </div>
+	<div>
+        <ul class="pure-g">
+            <li class=" pure-u-1 pure-u-md-1-3  align-center weather" ng-repeat="weather in weatherResult.list">
+                <div>{{toDay(weather.dt)|date:'EEEE'}}</div>
+                <div>{{weather.weather[0].description}}</div>
+                <div class="temperature">Max: {{toCelcius(weather.temp.day)}} C.</div>
+            </li>
+        </ul>
+    </div>
+</div>
+-->
+<weather></weather>
